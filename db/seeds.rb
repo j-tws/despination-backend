@@ -102,6 +102,25 @@ a2 = Attraction.create!(
     latitude: 23.43,
     destination_id: d1.id
 )
+a3 = Attraction.create!(
+    name: "Ponte Vecchio",
+    description: "Dating from 1345, iconic Ponte Vecchio was the only Florentine bridge to survive destruction at the hands of retreating German forces in 1944. Above jewellery shops on the eastern side, the Corridoio Vasariano is a 16th-century passageway between the Uffizi and Palazzo Pitti that runs around, rather than through, the medieval Torre dei Mannelli at the bridge's southern end.",
+    category_id: c3.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d1.id
+)
+
+a2 = Attraction.create!(
+    name: "Ponte Vecchio",
+    description: "Dating from 1345, iconic Ponte Vecchio was the only Florentine bridge to survive destruction at the hands of retreating German forces in 1944. Above jewellery shops on the eastern side, the Corridoio Vasariano is a 16th-century passageway between the Uffizi and Palazzo Pitti that runs around, rather than through, the medieval Torre dei Mannelli at the bridge's southern end.",
+    category_id: c3.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d1.id
+)
 
 a3 = Attraction.create!(
     name: "Giardino Bardini",
@@ -145,3 +164,5 @@ a6 = Attraction.create!(
 
 
 puts "created #{Attraction.count} attractions"
+
+# 
