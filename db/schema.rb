@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(version: 2022_09_17_060517) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "destination_id"
+    t.text "image"
   end
 
   create_table "attractions_planners", force: :cascade do |t|

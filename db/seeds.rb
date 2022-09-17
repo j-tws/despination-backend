@@ -94,6 +94,7 @@ a1 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399052/Project%202%20Images/Santa_Maria_del_fiore_2_lodevn.jpg",
     destination_id: d1.id
 )
 
@@ -104,6 +105,7 @@ a2 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399051/Project%202%20Images/Ponte_Vecchio_pqyjqg.jpg",
     destination_id: d1.id
 )
 
@@ -114,6 +116,7 @@ a3 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399054/Project%202%20Images/Uffizi_Gallery_nehf5o.avif",
     destination_id: d1.id
 )
 
@@ -124,6 +127,7 @@ a4 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399045/Project%202%20Images/Giardino_Bardini_y9vyr1.avif",
     destination_id: d1.id
 )
 
@@ -134,6 +138,7 @@ a5 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399047/Project%202%20Images/Giardino_delle_Rose_bqe3fj.jpg",
     destination_id: d1.id
 )
 
@@ -144,6 +149,7 @@ a6 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399052/Project%202%20Images/Parco_del_cascine_y9wkqk.avif",
     destination_id: d1.id
 )
 
@@ -155,6 +161,7 @@ a7 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399048/Project%202%20Images/La_giostra_gb7qms.jpg",
     destination_id: d1.id
 )
 
@@ -165,6 +172,7 @@ a8 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399053/Project%202%20Images/Trattoria_Marione_uhmqdz.jpg",
     destination_id: d1.id
 )
 
@@ -175,6 +183,7 @@ a9 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399052/Project%202%20Images/Perseus_mo04tp.jpg",
     destination_id: d1.id
 )
 
@@ -187,6 +196,7 @@ a10 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399045/Project%202%20Images/Fushimi_Inari_iyo8jd.avif",
     destination_id: d2.id
 
 )
@@ -198,6 +208,7 @@ a11 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399513/Project%202%20Images/kinkakuji_xjo6aa.avif",
     destination_id: d2.id
 
 )
@@ -209,6 +220,7 @@ a12 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399047/Project%202%20Images/Kiyomizu-dera_jijbfg.avif",
     destination_id: d2.id
 
 )
@@ -220,6 +232,7 @@ a13 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399041/Project%202%20Images/Arashiyama_bamboo_o9eagz.avif",
     destination_id: d2.id
 
 )
@@ -231,6 +244,7 @@ a14 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399043/Project%202%20Images/Daitokuji_t9cwtf.avif",
     destination_id: d2.id
 
 )
@@ -242,6 +256,7 @@ a15 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399049/Project%202%20Images/Maruyama-koen_hpu9ty.avif",
     destination_id: d2.id
 
 )
@@ -253,6 +268,7 @@ a16 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399050/Project%202%20Images/Nishiki_market_2_pmeumd.jpg",
     destination_id: d2.id
 
 )
@@ -264,6 +280,7 @@ a17 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399053/Project%202%20Images/Sushisei_sjeweh.jpg",
     destination_id: d2.id
 
 )
@@ -275,6 +292,7 @@ a18 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399043/Project%202%20Images/Den_shichi_w0hp76.jpg",
     destination_id: d2.id
 
 )
@@ -288,6 +306,7 @@ a19 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399054/Project%202%20Images/Uffizi_Gallery_nehf5o.avif",
     destination_id: d3.id
 
 )
@@ -299,6 +318,7 @@ a20 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399043/Project%202%20Images/Christo_Redentor_c4choe.jpg",
     destination_id: d3.id
 
 )
@@ -310,6 +330,7 @@ a21 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399047/Project%202%20Images/Instituto_Moreira_Salles_e3cwzq.avif",
     destination_id: d3.id
 
 )
@@ -321,6 +342,7 @@ a22 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399051/Project%202%20Images/Parque_nacional_da_tijuca_jp65th.avif",
     destination_id: d3.id
 
 )
@@ -332,6 +354,7 @@ a23 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399043/Project%202%20Images/Copacabana_Beach_gnggwn.avif",
     destination_id: d3.id
 
 )
@@ -343,6 +366,7 @@ a24 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399051/Project%202%20Images/Pao_de_Acucar_auhljz.avif",
     destination_id: d3.id
 
 )
@@ -354,6 +378,7 @@ a25 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399045/Project%202%20Images/Feira_Nordestina_i0xrwu.jpg",
     destination_id: d3.id
 
 )
@@ -365,6 +390,7 @@ a26 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399050/Project%202%20Images/Oro_qdqiqv.jpg",
     destination_id: d3.id
 
 )
@@ -376,6 +402,7 @@ a27 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399041/Project%202%20Images/Braseiro_zfbf4f.jpg",
     destination_id: d3.id
 
 )
@@ -389,6 +416,7 @@ a28 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399049/Project%202%20Images/Metropolitan_museum_of_art_xzmd1l.avif",
     destination_id: d4.id
 
 )
@@ -400,6 +428,7 @@ a29 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399041/Project%202%20Images/9-11_memorial_gau6ep.avif",
     destination_id: d4.id
 
 )
@@ -411,6 +440,7 @@ a30 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399054/Project%202%20Images/Uffizi_Gallery_nehf5o.avif",
     destination_id: d4.id
 
 )
@@ -422,6 +452,7 @@ a31 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399042/Project%202%20Images/Brooklyn_bridge_hkl6sy.avif",
     destination_id: d4.id
 
 )
@@ -433,6 +464,7 @@ a32 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399050/Project%202%20Images/Highline_algbyt.avif",
     destination_id: d4.id
 
 )
@@ -444,6 +476,7 @@ a33 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399046/Project%202%20Images/Hudson_river_park_zkqqd4.avif",
     destination_id: d4.id
 
 )
@@ -455,6 +488,7 @@ a34 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399054/Project%202%20Images/The_halal_guys_y9mub8.jpg",
     destination_id: d4.id
 
 )
@@ -466,6 +500,7 @@ a35 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399049/Project%202%20Images/Joes_pizza_g9etnf.jpg",
     destination_id: d4.id
 
 )
@@ -477,6 +512,7 @@ a36 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399044/Project%202%20Images/Eleven_madison_park_ygodmf.jpg",
     destination_id: d4.id
 
 )
@@ -490,6 +526,7 @@ a37 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399054/Project%202%20Images/V_A_waterfront_vrni31.jpg",
     destination_id: d5.id
 
 )
@@ -501,6 +538,7 @@ a38 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399043/Project%202%20Images/district_six_museum_m42rdi.avif",
     destination_id: d5.id
 
 )
@@ -512,6 +550,7 @@ a39 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399052/Project%202%20Images/Robben_island_zp6dwa.avif",
     destination_id: d5.id
 
 )
@@ -523,6 +562,7 @@ a40 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663400041/Project%202%20Images/Table_mountain_gakpgw.jpg",
     destination_id: d5.id
 
 )
@@ -534,6 +574,7 @@ a41 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399048/Project%202%20Images/kirstenbosch_garden_bbutvh.avif",
     destination_id: d5.id
 
 )
@@ -545,6 +586,7 @@ a42 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399054/Project%202%20Images/Uffizi_Gallery_nehf5o.avif",
     destination_id: d5.id
 
 )
@@ -556,6 +598,7 @@ a43 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399050/Project%202%20Images/Oranjezicht_market_ixlmqd.jpg",
     destination_id: d5.id
 
 )
@@ -567,6 +610,7 @@ a44 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399053/Project%202%20Images/Royale_eatery_dtwr9n.jpg",
     destination_id: d5.id
 
 )
@@ -578,17 +622,120 @@ a45 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399043/Project%202%20Images/Codfather_seafood_and_sushi_lo5d8c.jpg",
     destination_id: d5.id
 
 )
 
-# Attractions for Cape Town a46 - a54
+# Attractions for Marrakesh a46 - a54
 
+a46 = Attraction.create!(
+    name: "El Badi Palace",
+    description: "Badi Palace was once the biggest and most splendid palace complex in Morocco. Today, little is left of the splendor of the Saadians, yet the remaining ruins indicate the dimensions of the former palace. And there is another worthwhile destination hidden away in El Badi.",
+    category_id: c1.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399044/Project%202%20Images/El_badi_palace_bxgbf3.jpg",
+    destination_id: d6.id
 
+)
 
+a47 = Attraction.create!(
+    name: "Bahia Palace",
+    description: "La Bahia (The Beautiful) is an 8000-sq-metre, floor-to-ceiling extravagance of intricate marquetry, plasterwork and zouak (painted wood), and certainly one of Marrakesh's most eye-popping sights. The salons of both the Petit Riad and Grand Riad host intricate marquetry and zouak ceilings, but the Cour d'Honneur, a grand courtyard, with its 1500 sq metre floor of Italian Carrara marble, is the undisputed highlight.",
+    category_id: c1.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399041/Project%202%20Images/Bahia_palace_mybdcw.avif",
+    destination_id: d6.id
 
+)
 
+a48 = Attraction.create!(
+    name: "Koutoubia Mosque",
+    description: "Five times a day, one voice rises above the din of Djemaa El Fna as the muezzin calls the faithful to prayer from the Koutoubia Mosque. The mosque's minaret has been standing guard over the old city since the Almohads erected it in the 12th century. Today it's Marrakesh's most famous landmark. The tower is a monumental cheat sheet of Moorish ornament: scalloped keystone arches, jagged merlon crenelations and mathematically pleasing proportions.",
+    category_id: c1.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399049/Project%202%20Images/Koutoubia_mosque_rusntn.avif",
+    destination_id: d6.id
 
+)
+
+a49 = Attraction.create!(
+    name: "Jardin Majorelle",
+    description: "French fashion designer Yves Saint Laurent and his partner Pierre Bergé bought Jardin Majorelle in 1980 to preserve the vision of its original owner, French landscape painter Jacques Majorelle, and keep it open to the public. The garden, started in 1924, contains a psychedelic desert mirage of 300 plant species from five continents. At its heart lies Majorelle's electric-blue art deco studio, home to the Musée Berbère, which showcases the rich panorama of Morocco's indigenous inhabitants through displays of some 600 artifacts.",
+    category_id: c2.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399046/Project%202%20Images/Jardin_majorelle_ao9rvx.avif",
+    destination_id: d6.id
+
+)
+
+a50 = Attraction.create!(
+    name: "Cactus Thiemann",
+    description: "If you think a cacti garden isn't worth travelling across the bumpy lunar pistes of outer Marrakesh for, think again. Cactus Thiemann is one of North Africa’s largest cacti farms, with fields of giant aloe, agave and prickly pear. The largest cactus, at 8m high, is 80 years old and was brought to Morocco overland from Europe in a souped-up military vehicle by founder Hans Thiemann. Tours of the 17-acre nursery and its 150 cacti varieties are fascinating. There are also camels for kids.",
+    category_id: c2.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663400352/Project%202%20Images/cactus_thiemann_kkk7mn.avif",
+    destination_id: d6.id
+
+)
+
+a51 = Attraction.create!(
+    name: "Agdal Garden",
+    description: "Built in the 12th century by the founder of the Almohad caliphate, Agdal was once the most important garden in Marrakesh. Although the gardens and its pools cover a huge expanse along the southern edges of the walled medina, only a fraction of it is accessible to the public because Agdal backs onto the Royal Palace (still in use). From the Saadian Tombs it's about a 45-minute walk south, consider renting a bike to get down here, particularly in hot weather.",
+    category_id: c2.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399040/Project%202%20Images/Agdal_garden_nhm57r.avif",
+    destination_id: d6.id
+
+)
+
+a52 = Attraction.create!(
+    name: "Djemaa El Fna",
+    description: "Roll up, roll up for the greatest show on earth. Everywhere you look in Djemaa El Fna, Marrakesh's main square (pronounced 'jema', the 'd' is silent), you'll discover drama in progress. The hoopla and halqa (street theater) have been non-stop here since the 11th century. Until a few decades ago, it hosted a daily food market for mountain traders. Now the whine of snake-charmer pungi flutes hits full throttle by mid-morning, and the show doesn't really kick off until sunset when restaurants fire up their grills, cueing musicians to tune up their instruments.",
+    category_id: c3.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399044/Project%202%20Images/Djemma_el_fna_bjbah0.avif",
+    destination_id: d6.id
+
+)
+
+a53 = Attraction.create!(
+    name: "Amal Centre",
+    description: "Likely the best home-cooked meal you'll eat in Marrakech is served at the Amal Centre, a social cooperative that supports and trains disadvantaged women. The food includes unusual salads with lentils, cauliflower and leeks, a truly excellent fish tagine and a traditional Friday couscous. Prices are low, and there are crèche facilities, meaning the dining room is a happy mix of locals and savvy travellers.",
+    category_id: c3.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399041/Project%202%20Images/Amal_center_vyb11g.jpg",
+    destination_id: d6.id
+
+)
+
+a54 = Attraction.create!(
+    name: "Le Trou au Mur",
+    description: "The menu at James Wix's retro Moroccan restaurant draws straight from grandma's cookbook. Here you can sample traditional specialities such as berkoukesh (handmade pasta with a herb and tomato sauce), tride (shredded pancakes with lentils, chicken and saffron) and tihane (offal stuffed with spiced kefta, olives and lemons). Not so old is the contemporary, orientalist décor and the fabulous cocktails, best enjoyed on the roof terrace.",
+    category_id: c3.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399049/Project%202%20Images/Le_trou_au_mur_krgh40.jpg",
+    destination_id: d6.id
+
+)
 
 puts "created #{Attraction.count} attractions"
 
