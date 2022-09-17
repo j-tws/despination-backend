@@ -8,11 +8,15 @@ class DestinationsController < ApplicationController
   end
 
   def index
-    @destination = Destination.all
+    @destinations = Destination.all
+
+    render json: @destinations, include: [:attractions, :events]
   end
 
   def show
     @destination = Destination.find params[:id]
+
+    render json: @destination, include: [:attractions, :events]
   end
 
   def edit
