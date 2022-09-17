@@ -772,7 +772,7 @@ e3 = Event.create!(
     time: "4th September 2022, 8pm",
     description: "The Gion Higashi geisha district puts on their annual geisha dance in the Gion Kaikan hall on Higashioji-dori in early November. This is the smallest of the city is five geisha districts and their dance is both intimate and somewhat quaint – a stark contrast to the grand Miyako Odori held by the main Gion geisha district. This is part of the charm of the event. Also, this is the only major geisha dance to be held in the fall. ",
     image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663389310/DesPination/kyoto-event3_qsi1g9.jpg",
-    destination_id: d1.id, 
+    destination_id: d2.id, 
     attraction_id: nil 
 )
 
@@ -793,7 +793,7 @@ e5 = Event.create!(
     time: "4th September 2022, 8pm",
     description: "The Carnival in Rio de Janeiro is a festival held every year before Lent; it is considered the biggest carnival in the world, with two million people per day on the streets. The first Carnival festival in Rio occurred in 1723. It's a wild celebration full of lively music, dancing, and extravagant costumes in the purpose-built Sambadrome.",
     image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663389312/DesPination/rio-event5_stbbqm.jpg",
-    destination_id: d1.id, 
+    destination_id: d3.id, 
     attraction_id: nil 
 )
 
@@ -814,7 +814,7 @@ e7 = Event.create!(
     time: "4th September 2022, 8pm",
     description: "There's nothing quite like hearing the Bard's immortal words performed outside in New York, with a backdrop of natural splendor and the Belvedere Castle looming in the background like the world's most impressive set decoration. Shakespeare in the Park's popularity means that tickets aren't easy to come by—but if you persevere, you can get seats.",
     image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663389312/DesPination/newyork-event7_nlrpzv.jpg",
-    destination_id: d1.id, 
+    destination_id: d4.id, 
     attraction_id: nil 
 )
 
@@ -835,7 +835,7 @@ e9 = Event.create!(
     time: "20th October 2022, 9am",
     description: "This 10-day long festival sees events and experiences taking place across Stellenbosch and includes a flower parade, presentations and installations from the Western Cape Association for Flower Arrangers, private home and estate show gardens and a range of workshops. From 22 October the Paul Roos Gymnasium hosts the AFGRI Spring Fair which features food, wine and fun activities for the kids.",
     image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663389311/DesPination/cape-event9_z5km2r.webp",
-    destination_id: d1.id, 
+    destination_id: d5.id, 
     attraction_id: nil 
 )
 
@@ -856,7 +856,7 @@ e11 = Event.create!(
     time: "4th September 2022, 8pm",
     description: "Join a group of like-minded women 40+ for and exciting adventure in the Sahara Desert and High Atlas Mountains with Exodus Travels.The grandeur of the Sahara Desert is truly experienced on this trip as we journey from Marrakech across the High Atlas Mountains to the palm groves of the Draa Valley and the gateway to the desert at Zagora.",
     image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663389311/DesPination/marrakesh-event11_yq14wz.webp",
-    destination_id: d1.id, 
+    destination_id: d6.id, 
     attraction_id: nil 
 )
 
