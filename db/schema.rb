@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2022_09_16_074215) do
+=======
+ActiveRecord::Schema.define(version: 2022_09_16_115945) do
+>>>>>>> 3664585f19060c38f54fd53b8d2b1c2f8ac7a55f
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -19,6 +23,27 @@ ActiveRecord::Schema.define(version: 2022_09_16_074215) do
     t.string "name"
     t.text "description"
     t.integer "category_id"
+<<<<<<< HEAD
+=======
+    t.text "address"
+    t.float "longitude"
+    t.float "latitude"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "destination_id"
+  end
+
+  create_table "categories", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "destinations", force: :cascade do |t|
+    t.string "name"
+    t.text "description"
+    t.text "image"
+>>>>>>> 3664585f19060c38f54fd53b8d2b1c2f8ac7a55f
     t.text "address"
     t.float "longitude"
     t.float "latitude"
@@ -26,6 +51,7 @@ ActiveRecord::Schema.define(version: 2022_09_16_074215) do
     t.datetime "updated_at", null: false
   end
 
+<<<<<<< HEAD
   create_table "categories", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", null: false
@@ -43,6 +69,8 @@ ActiveRecord::Schema.define(version: 2022_09_16_074215) do
     t.datetime "updated_at", null: false
   end
 
+=======
+>>>>>>> 3664585f19060c38f54fd53b8d2b1c2f8ac7a55f
   create_table "events", force: :cascade do |t|
     t.string "name"
     t.string "location"
