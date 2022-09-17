@@ -472,7 +472,7 @@ a34 = Attraction.create!(
 
 a35 = Attraction.create!(
     name: "Joe's Pizza",
-    description: "The Halal Guys is a halal fast casual restaurant franchise that began as halal carts on the southeast and southwest corners of 53rd Street and Sixth Avenue in Manhattan, New York City. New locations, both food cart and storefront, are being added throughout New York (including a storefront on 14th Street and Second Avenue) and around the world. The franchise is most recognized by its primary dish which is a platter of chicken or gyro meat with rice, though it also serves a chicken or gyro wrap sandwich.",
+    description: "Joe's Pizza, also called Famous Joe's Pizza, is a pizzeria located in Greenwich Village, Manhattan, New York City on Carmine Street near Bleecker Street. The restaurant is known for serving a classic New York street styled pizza and has been called a 'Greenwich Village institution'. The pizzeria serves by the slice or by full pie.",
     category_id: c3.id,
     address: "To be added",
     longitude: 12.34, 
@@ -480,6 +480,21 @@ a35 = Attraction.create!(
     destination_id: d4.id
 
 )
+
+a36 = Attraction.create!(
+    name: "Eleven Madison Park",
+    description: "After briefly shuttering its doors and opening a pop-up in East Hampton, the world's best restaurant (which closed immediately after winning the top spot) has returned. In addition to the pricey 8- to 10-course tasting menu in the dining room, you can now order a more affordable tasting menu at the bar, which also offers snacks and cocktails (or choose from its 20,000 bottles of 4,000 wines). The seasonal menu is packed with hyperminimalist treats, including two foie gras dishes and a smoked sturgeon cheesecake with caviar. Regulars of the previous iteration will be happy to know that its signature savory black-and-white cookies are back in town. ",
+    category_id: c3.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d4.id
+
+)
+
+# Attractions for Cape Town a37 - a45
+
+
 
 
 puts "created #{Attraction.count} attractions"
