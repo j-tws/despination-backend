@@ -4,4 +4,6 @@ class Attraction < ApplicationRecord
     # has_and_belongs_to_many :planners, optional: true
     belongs_to :category
 
+    has_and_belongs_to_many :planners
+
 end
