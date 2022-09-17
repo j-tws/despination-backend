@@ -94,6 +94,7 @@ a1 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399052/Project%202%20Images/Santa_Maria_del_fiore_2_lodevn.jpg",
     destination_id: d1.id
 )
 
@@ -104,6 +105,7 @@ a2 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399051/Project%202%20Images/Ponte_Vecchio_pqyjqg.jpg",
     destination_id: d1.id
 )
 
@@ -114,6 +116,7 @@ a3 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399054/Project%202%20Images/Uffizi_Gallery_nehf5o.avif",
     destination_id: d1.id
 )
 
@@ -124,6 +127,7 @@ a4 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399045/Project%202%20Images/Giardino_Bardini_y9vyr1.avif",
     destination_id: d1.id
 )
 
@@ -134,6 +138,7 @@ a5 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399047/Project%202%20Images/Giardino_delle_Rose_bqe3fj.jpg",
     destination_id: d1.id
 )
 
@@ -144,6 +149,7 @@ a6 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399052/Project%202%20Images/Parco_del_cascine_y9wkqk.avif",
     destination_id: d1.id
 )
 
@@ -155,6 +161,7 @@ a7 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399048/Project%202%20Images/La_giostra_gb7qms.jpg",
     destination_id: d1.id
 )
 
@@ -165,6 +172,7 @@ a8 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399053/Project%202%20Images/Trattoria_Marione_uhmqdz.jpg",
     destination_id: d1.id
 )
 
@@ -175,6 +183,7 @@ a9 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399052/Project%202%20Images/Perseus_mo04tp.jpg",
     destination_id: d1.id
 )
 
@@ -187,6 +196,7 @@ a10 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399045/Project%202%20Images/Fushimi_Inari_iyo8jd.avif",
     destination_id: d2.id
 
 )
@@ -198,6 +208,7 @@ a11 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399513/Project%202%20Images/kinkakuji_xjo6aa.avif",
     destination_id: d2.id
 
 )
@@ -209,6 +220,7 @@ a12 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399047/Project%202%20Images/Kiyomizu-dera_jijbfg.avif",
     destination_id: d2.id
 
 )
@@ -220,6 +232,7 @@ a13 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399041/Project%202%20Images/Arashiyama_bamboo_o9eagz.avif",
     destination_id: d2.id
 
 )
@@ -231,6 +244,7 @@ a14 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399043/Project%202%20Images/Daitokuji_t9cwtf.avif",
     destination_id: d2.id
 
 )
@@ -242,6 +256,7 @@ a15 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399049/Project%202%20Images/Maruyama-koen_hpu9ty.avif",
     destination_id: d2.id
 
 )
@@ -253,6 +268,7 @@ a16 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399050/Project%202%20Images/Nishiki_market_2_pmeumd.jpg",
     destination_id: d2.id
 
 )
@@ -264,6 +280,7 @@ a17 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399053/Project%202%20Images/Sushisei_sjeweh.jpg",
     destination_id: d2.id
 
 )
@@ -275,6 +292,7 @@ a18 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399043/Project%202%20Images/Den_shichi_w0hp76.jpg",
     destination_id: d2.id
 
 )
@@ -288,6 +306,7 @@ a19 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399054/Project%202%20Images/Uffizi_Gallery_nehf5o.avif",
     destination_id: d3.id
 
 )
@@ -299,6 +318,7 @@ a20 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399043/Project%202%20Images/Christo_Redentor_c4choe.jpg",
     destination_id: d3.id
 
 )
@@ -310,6 +330,7 @@ a21 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399047/Project%202%20Images/Instituto_Moreira_Salles_e3cwzq.avif",
     destination_id: d3.id
 
 )
@@ -321,6 +342,7 @@ a22 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399051/Project%202%20Images/Parque_nacional_da_tijuca_jp65th.avif",
     destination_id: d3.id
 
 )
@@ -332,6 +354,7 @@ a23 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399043/Project%202%20Images/Copacabana_Beach_gnggwn.avif",
     destination_id: d3.id
 
 )
@@ -343,6 +366,7 @@ a24 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399051/Project%202%20Images/Pao_de_Acucar_auhljz.avif",
     destination_id: d3.id
 
 )
@@ -354,6 +378,7 @@ a25 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399045/Project%202%20Images/Feira_Nordestina_i0xrwu.jpg",
     destination_id: d3.id
 
 )
@@ -365,6 +390,7 @@ a26 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399050/Project%202%20Images/Oro_qdqiqv.jpg",
     destination_id: d3.id
 
 )
@@ -376,6 +402,7 @@ a27 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399041/Project%202%20Images/Braseiro_zfbf4f.jpg",
     destination_id: d3.id
 
 )
@@ -389,6 +416,7 @@ a28 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399049/Project%202%20Images/Metropolitan_museum_of_art_xzmd1l.avif",
     destination_id: d4.id
 
 )
@@ -400,6 +428,7 @@ a29 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399041/Project%202%20Images/9-11_memorial_gau6ep.avif",
     destination_id: d4.id
 
 )
@@ -411,6 +440,7 @@ a30 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399054/Project%202%20Images/Uffizi_Gallery_nehf5o.avif",
     destination_id: d4.id
 
 )
@@ -422,6 +452,7 @@ a31 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399042/Project%202%20Images/Brooklyn_bridge_hkl6sy.avif",
     destination_id: d4.id
 
 )
@@ -433,6 +464,7 @@ a32 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399050/Project%202%20Images/Highline_algbyt.avif",
     destination_id: d4.id
 
 )
@@ -444,6 +476,7 @@ a33 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399046/Project%202%20Images/Hudson_river_park_zkqqd4.avif",
     destination_id: d4.id
 
 )
@@ -455,6 +488,7 @@ a34 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399054/Project%202%20Images/The_halal_guys_y9mub8.jpg",
     destination_id: d4.id
 
 )
@@ -466,6 +500,7 @@ a35 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399049/Project%202%20Images/Joes_pizza_g9etnf.jpg",
     destination_id: d4.id
 
 )
@@ -477,6 +512,7 @@ a36 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399044/Project%202%20Images/Eleven_madison_park_ygodmf.jpg",
     destination_id: d4.id
 
 )
@@ -490,6 +526,7 @@ a37 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399054/Project%202%20Images/V_A_waterfront_vrni31.jpg",
     destination_id: d5.id
 
 )
@@ -501,6 +538,7 @@ a38 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399043/Project%202%20Images/district_six_museum_m42rdi.avif",
     destination_id: d5.id
 
 )
@@ -512,6 +550,7 @@ a39 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399052/Project%202%20Images/Robben_island_zp6dwa.avif",
     destination_id: d5.id
 
 )
@@ -523,6 +562,7 @@ a40 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663400041/Project%202%20Images/Table_mountain_gakpgw.jpg",
     destination_id: d5.id
 
 )
@@ -534,6 +574,7 @@ a41 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399048/Project%202%20Images/kirstenbosch_garden_bbutvh.avif",
     destination_id: d5.id
 
 )
@@ -545,6 +586,7 @@ a42 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399054/Project%202%20Images/Uffizi_Gallery_nehf5o.avif",
     destination_id: d5.id
 
 )
@@ -556,6 +598,7 @@ a43 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399050/Project%202%20Images/Oranjezicht_market_ixlmqd.jpg",
     destination_id: d5.id
 
 )
@@ -567,6 +610,7 @@ a44 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399053/Project%202%20Images/Royale_eatery_dtwr9n.jpg",
     destination_id: d5.id
 
 )
@@ -578,6 +622,7 @@ a45 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399043/Project%202%20Images/Codfather_seafood_and_sushi_lo5d8c.jpg",
     destination_id: d5.id
 
 )
@@ -591,6 +636,7 @@ a46 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399044/Project%202%20Images/El_badi_palace_bxgbf3.jpg",
     destination_id: d6.id
 
 )
@@ -602,6 +648,7 @@ a47 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399041/Project%202%20Images/Bahia_palace_mybdcw.avif",
     destination_id: d6.id
 
 )
@@ -613,6 +660,7 @@ a48 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399049/Project%202%20Images/Koutoubia_mosque_rusntn.avif",
     destination_id: d6.id
 
 )
@@ -624,6 +672,7 @@ a49 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399046/Project%202%20Images/Jardin_majorelle_ao9rvx.avif",
     destination_id: d6.id
 
 )
@@ -635,6 +684,7 @@ a50 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663400352/Project%202%20Images/cactus_thiemann_kkk7mn.avif",
     destination_id: d6.id
 
 )
@@ -646,6 +696,7 @@ a51 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399040/Project%202%20Images/Agdal_garden_nhm57r.avif",
     destination_id: d6.id
 
 )
@@ -657,6 +708,7 @@ a52 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399044/Project%202%20Images/Djemma_el_fna_bjbah0.avif",
     destination_id: d6.id
 
 )
@@ -668,6 +720,7 @@ a53 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399041/Project%202%20Images/Amal_center_vyb11g.jpg",
     destination_id: d6.id
 
 )
@@ -679,6 +732,7 @@ a54 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399049/Project%202%20Images/Le_trou_au_mur_krgh40.jpg",
     destination_id: d6.id
 
 )
