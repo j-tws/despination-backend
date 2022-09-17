@@ -485,3 +485,4 @@ a35 = Attraction.create!(
 puts "created #{Attraction.count} attractions"
 
 
+
