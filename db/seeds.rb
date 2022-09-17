@@ -279,17 +279,6 @@ a18 = Attraction.create!(
 
 )
 
-a18 = Attraction.create!(
-    name: "Den Shichi",
-    description: "Saiin, a rather non-descript neighborhood on the west side of Kyoto, is the last place you'd expect to find a great sushi restaurant. But Den Shichi, located in the heart of Saiin, is one of the best and most accessible sushi restaurants in the city. Sure, there are better sushi bars in Kyoto, but many of these are almost off-limits to foreigners (not because of discrimination, simply because you need an introduction to a regular client to get in). ",
-    category_id: c3.id,
-    address: "To be added",
-    longitude: 12.34, 
-    latitude: 23.43,
-    destination_id: d2.id
-
-)
-
 # Attractions for Rio de Janeiro a19 - 27
 
 a19 = Attraction.create!(
@@ -493,6 +482,84 @@ a36 = Attraction.create!(
 )
 
 # Attractions for Cape Town a37 - a45
+
+a37 = Attraction.create!(
+    name: "The Victoria and Alfred Waterfront",
+    description: "Stretching around two harbor basins, the Victoria and Alfred Waterfront is a buzzing entertainment quarter reminiscent of Fisherman's Wharf in San Francisco. Once a scruffy fishing harbor, this reimagined waterfront district is now one of the city's top tourist attractions, and many of the old buildings have been preserved and restored. Millions of visitors a year flock here to the shops, jazz venues, restaurants, hotels, theaters, drama school, cinemas, and museums.",
+    category_id: c1.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d5.id
+
+)
+
+a38 = Attraction.create!(
+    name: "District Six Museum",
+    description: "It's impossible not to be emotionally moved by this museum, which celebrates the once lively multiracial area that was destroyed during apartheid in the 1960s and 1970s, its 60,000 inhabitants forcibly removed. Inside the former Methodist Mission Church, home interiors have been recreated, alongside photographs, recordings and testimonials, all of which build an evocative picture of a shattered but not entirely broken community.",
+    category_id: c1.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d5.id
+
+)
+
+a39 = Attraction.create!(
+    name: "Robben Island",
+    description: "Used as a prison from the early days of the VOC (Dutch East India Company) right up until 1996, this Unesco World Heritage site is preserved as a memorial to those (such as Nelson Mandela) who spent many years incarcerated here. You can only go here on a tour, which lasts around four hours including ferry rides, departing from the Nelson Mandela Gateway beside the Clock Tower at the Waterfront. Booking online well in advance is highly recommended as tours can sell out.",
+    category_id: c1.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d5.id
+
+)
+
+a40 = Attraction.create!(
+    name: "Table Mountain",
+    description: "Around 600 million years old, and a canvas painted with the rich diversity of the Cape floral kingdom, Table Mountain is truly iconic. You can admire the showstopper of Table Mountain National Park and one of the 'New 7 Wonders of Nature' (https://nature.new7wonders.com) from multiple angles, but you really can't say you've visited Cape Town until you've stood on top of it.",
+    category_id: c2.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d5.id
+
+)
+
+a41 = Attraction.create!(
+    name: "Kirstenbosch National Botanical Garden",
+    description: "Location and unique flora combine to make these 5.28-sq-km botanical gardens among the most beautiful in the world. Gate 1, the main entrance at the Newlands end of the gardens, is where you'll find the information centre, an excellent souvenir shop and the conservatory.",
+    category_id: c2.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d5.id
+
+)
+
+a42 = Attraction.create!(
+    name: "Kirstenbosch National Botanical Garden",
+    description: "Location and unique flora combine to make these 5.28-sq-km botanical gardens among the most beautiful in the world. Gate 1, the main entrance at the Newlands end of the gardens, is where you'll find the information centre, an excellent souvenir shop and the conservatory.",
+    category_id: c2.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d5.id
+
+)
+
+a43 = Attraction.create!(
+    name: "Cape of Good Hope",
+    description: "This 77.5-sq-km section of Table Mountain National Park includes awesome scenery, fantastic walks, great birdwatching and often-deserted beaches. The reserve is commonly referred to as Cape Point, after its most dramatic (but less famous) promontory. Bookings are required for the two-day Cape of Good Hope Trail, a spectacular 33.8km circular route with one night spent in a basic hut. Contact the Buffelsfontein Visitor Centre for further details.",
+    category_id: c2.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d5.id
+
+)
+
 
 
 
