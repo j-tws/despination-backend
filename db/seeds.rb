@@ -182,7 +182,7 @@ a9 = Attraction.create!(
 
 a10 = Attraction.create!(
     name: "Fushimi Inari-Taisha",
-    description: "ith seemingly endless arcades of vermilion torii (shrine gates) spread across a thickly wooded mountain, this vast shrine complex is a world unto its own. It is, quite simply, one of the most impressive and memorable sights in Kyoto.",
+    description: "With seemingly endless arcades of vermilion torii (shrine gates) spread across a thickly wooded mountain, this vast shrine complex is a world unto its own. It is, quite simply, one of the most impressive and memorable sights in Kyoto.",
     category_id: c1.id,
     address: "To be added",
     longitude: 12.34, 
@@ -190,6 +190,297 @@ a10 = Attraction.create!(
     destination_id: d2.id
 
 )
+
+a11 = Attraction.create!(
+    name: "Kinkaku-ji",
+    description: "Kyoto's famed 'Golden Pavilion', Kinkaku-ji is one of Japan's best-known sights. The main hall, covered in brilliant gold leaf, shining above its reflecting pond is truly spectacular. Needless to say, due to its beauty, the temple can be packed any day of the year. It's best to go early in the day or just before closing, ideally on a weekday.",
+    category_id: c1.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d2.id
+
+)
+
+a12 = Attraction.create!(
+    name: "Kiyomizu-dera",
+    description: "A buzzing hive of activity perched on a hill overlooking the basin of Kyoto, Kiyomizu-dera is one of Kyoto's most popular and most enjoyable temples. It may not be a tranquil refuge, but it represents the favoured expression of faith in Japan. The excellent website is a great first port of call for information on the temple, plus a how-to guide to praying here. Note that the Main Hall is undergoing renovations and may be covered, but is still accessible.",
+    category_id: c1.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d2.id
+
+)
+
+a13 = Attraction.create!(
+    name: "Arashiyama Bamboo Grove",
+    description: "The thick green bamboo stalks seem to continue endlessly in every direction and there's a strange quality to the light at this famous bamboo grove, which has become one of Kyoto's must-visit sights. It's most atmospheric on the approach to Ōkōchi Sansō villa and you'll be unable to resist trying to take a few photos, but you might be disappointed with the results: photos just can't capture the magic of the place.",
+    category_id: c2.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d2.id
+
+)
+
+a14 = Attraction.create!(
+    name: "Daitoku-ji",
+    description: "For anyone with the slightest fondness for Japanese gardens, don't miss this network of lanes dotted with atmospheric Zen temples. Daitoku-ji, the main temple here, serves as headquarters for the Rinzai Daitoku-ji school of Zen Buddhism. It's not usually open to the public but there are several subtemples with superb carefully raked karen-sensui (dry landscape) gardens well worth making the trip out for. Highlights include Daisen-in, Kōtō-in, Ryōgen-in and Zuihō-in.",
+    category_id: c2.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d2.id
+
+)
+
+a15 = Attraction.create!(
+    name: "Maruyama-kōen",
+    description: "Maruyama-kōen is a favourite of locals and visitors alike. This park is the place to come to escape the bustle of the city centre and amble around gardens, ponds, souvenir shops and restaurants. Peaceful paths meander through the trees, and carp glide through the waters of a small pond in the park's centre.",
+    category_id: c2.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d2.id
+
+)
+
+a16 = Attraction.create!(
+    name: "Nishiki Market",
+    description: "The covered Nishiki Market (Nishiki-kōji Ichiba) is one of Kyoto's real highlights, especially if you have an interest in cooking and dining. Commonly known as Kyoto no daidokoro (Kyoto's kitchen) by locals, this is the place to see the weird and wonderful foods that go into Kyoto cuisine, and where most of Kyoto's high-end restaurateurs and well-to-do do their food shopping.",
+    category_id: c3.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d2.id
+
+)
+
+a17 = Attraction.create!(
+    name: "Sushisei",
+    description: "A branch of Tokyo's famed Sushisei chain, Kyoto's Sushisei is where we go when we find ourselves craving casual sushi right downtown. Sit at the counter and watch the chefs do their thing, or grab a table with a few friends. It's easy to spot: It's on the basement level of the building opposite the east side of Daimaru Department Store (on Takakura-dori Street). ",
+    category_id: c3.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d2.id
+
+)
+
+a18 = Attraction.create!(
+    name: "Den Shichi",
+    description: "Saiin, a rather non-descript neighborhood on the west side of Kyoto, is the last place you'd expect to find a great sushi restaurant. But Den Shichi, located in the heart of Saiin, is one of the best and most accessible sushi restaurants in the city. Sure, there are better sushi bars in Kyoto, but many of these are almost off-limits to foreigners (not because of discrimination, simply because you need an introduction to a regular client to get in). ",
+    category_id: c3.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d2.id
+
+)
+
+a18 = Attraction.create!(
+    name: "Den Shichi",
+    description: "Saiin, a rather non-descript neighborhood on the west side of Kyoto, is the last place you'd expect to find a great sushi restaurant. But Den Shichi, located in the heart of Saiin, is one of the best and most accessible sushi restaurants in the city. Sure, there are better sushi bars in Kyoto, but many of these are almost off-limits to foreigners (not because of discrimination, simply because you need an introduction to a regular client to get in). ",
+    category_id: c3.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d2.id
+
+)
+
+# Attractions for Rio de Janeiro a19 - 27
+
+a19 = Attraction.create!(
+    name: "Christo Redentor",
+    description: "Standing atop Corcovado (which means 'hunchback'), Cristo Redentor gazes out over Rio, a placid expression on his well-crafted face. The mountain rises straight up from the city to 710m, and at night the brightly lit 38m-high open-armed statue, all 1145 tons of him, is visible from nearly every part of the city.",
+    category_id: c1.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d3.id
+
+)
+
+a20 = Attraction.create!(
+    name: "Escadaria Selarón",
+    description: "One of Rio's best-loved attractions, the steps leading up from Joaquim Silva became a work of art when Chilean-born artist Jorge Selarón decided to cover them with colorful mosaics. A dedication to the Brazilian people, the 215 steps are a vivid riot of color.",
+    category_id: c1.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d3.id
+
+)
+
+a21 = Attraction.create!(
+    name: "Instituto Moreira Salles",
+    description: "This beautiful cultural center hosts impressive exhibitions, often showcasing the works of some of Brazil's best photographers and artists. The gardens, complete with artificial lake and flowing river, were designed by Brazilian landscape architect Roberto Burle Marx. There's also a craft shop, and an excellent cafe that serves breakfast all day as well as lunch and afternoon tea.",
+    category_id: c1.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d3.id
+
+)
+
+a22 = Attraction.create!(
+    name: "Parque Nacional da Tijuca",
+    description: "The Tijuca is all that's left of the Atlantic rainforest that once surrounded Rio de Janeiro. This 39-sq-km tropical-jungle preserve is an exuberant green, with beautiful trees, creeks and waterfalls, mountainous terrain and high peaks. It has an excellent, well-marked trail system. Candomblistas (practitioners of the Afro-Brazilian religion of Candomblé) leave offerings by the roadside; families have picnics; and serious hikers climb the 1012m to the summit of Pico da Tijuca.",
+    category_id: c2.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d3.id
+
+)
+
+a23 = Attraction.create!(
+    name: "Copacabana Beach",
+    description: "A magnificent confluence of land and sea, the long, scalloped beach of Copacabana extends for some 4km, with a flurry of activity along its length: over-amped soccer players singing their team's anthem; cariocas (Rio residents) and tourists lining up for caipirinhas at kiosks; favela kids showing off their soccer skills; and beach vendors shouting out their wares among the tanned beach bodies.",
+    category_id: c2.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d3.id
+
+)
+
+a24 = Attraction.create!(
+    name: "Pão de Açúcar",
+    description: "Seen from the peak of Pão de Açúcar, Rio is undoubtedly a Cidade Maravilhosa (Marvelous City). There are many good times to make the ascent, but sunset on a clear day is the most rewarding. Two cable cars connect to the summit, 395m above Rio. At the top, the city unfolds beneath you, with Corcovado mountain and Cristo Redentor (Christ the Redeemer) off to the west, and Copacabana Beach to the south.",
+    category_id: c2.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d3.id
+
+)
+
+a25 = Attraction.create!(
+    name: "Feira Nordestina",
+    description: "Hundreds of food and drinks stalls makes this an excellent place to sample authentic, spicy regional cuisine, including plenty of seafood options. You'll forget the accusation that Brazilian food can be bland when you get your chops around the chili peppers and pepper sauces offered here.",
+    category_id: c3.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d3.id
+
+)
+
+a26 = Attraction.create!(
+    name: "Oro",
+    description: "An inspired reimagining of Brazil's culinary heritage, centered on open-flame cooking, has snagged Oro both a Michelin star and a spot on the world's 50 best restaurants list. Whether dining on the 'Creativity' tasting menu, which celebrates seasonal produce, or the abridged 'Affectivity' menu of two signature dishes, award-winning sommelier Celia will (Bronze's wife) will select perfect wine pairings.",
+    category_id: c3.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d3.id
+
+)
+
+a27 = Attraction.create!(
+    name: "Braseiro",
+    description: "Unpretentious and authentic, the space may be tiny, but the portions are far from it. Order the picanha, a cut that's tricky to find outside Brazil, and sausages drizzled with lime. No matter if there's a wait for the staff to squeeze you in: sip a draft beer and soak up the lively carioca atmosphere.",
+    category_id: c3.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d3.id
+
+)
+
+# Attractions for New York a28 - a36
+
+a28 = Attraction.create!(
+    name: "Metropolitan Museum of Art",
+    description: "What started with a handful of paintings brought over from Europe or donated by a coterie of philanthropically minded robber barons in the 19th century has since become a massive collection of two million works of art representing 5000 years of history. It's also become one of the most beloved corners of New York City. The Met (as it's affectionately known) has been memorialized in the verses of Leonard Cohen and Jorge Luis Borges, featured prominently on Gossip Girl, and was sorely missed when it closed its doors as the COVID-19 pandemic rocked New York City.",
+    category_id: c1.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d4.id
+
+)
+
+a29 = Attraction.create!(
+    name: "National September 11 Memorial Museum",
+    description: "When the twin towers of the World Trade Center toppled during the awful events of 11 September 2001, it led to years of soul-searching about what would be an appropriate memorial to replace these lost landmarks. Eventually, New York City opted for subtlety and dignity, and the end result was this humbling museum in Lower Manhattan & the Financial District, flanked by the sombre reflective pools of the adjacent National September 11 Memorial, creating a moving homage to those lost in the tragedy.",
+    category_id: c1.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d4.id
+
+)
+
+a30 = Attraction.create!(
+    name: "Brooklyn Bridge",
+    description: "A New York icon, the Brooklyn Bridge was the world's first steel suspension bridge, and, at almost 1596ft, the longest when it opened in 1883. Construction was fraught with disaster, but the bridge's neo-Gothic towers have endured as city emblems. Crossing the bridge is a breeze-buffeted, exhilarating journey with numerous photo-ops. The suspended bicycle/pedestrian walkway delivers soul-stirring views of Manhattan, the East River and the waterfront.",
+    category_id: c1.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d4.id
+
+)
+
+a31 = Attraction.create!(
+    name: "Central Park",
+    description: "One of the world's most renowned green spaces, Central Park comprises 843 acres of rolling meadows, boulder-studded outcroppings, elm-lined walkways, manicured European-style gardens, a lake and a reservoir — not to mention an outdoor theater, a memorial to John Lennon, an idyllic waterside eatery and a famous Alice in Wonderland statue.",
+    category_id: c2.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d4.id
+
+)
+
+a32 = Attraction.create!(
+    name: "High Line",
+    description: "It's hard to believe that the 1½-mile-long High Line, a shining example of brilliant urban renewal, was once a dingy freight line that anchored a rather unsavory district of slaughterhouses. Today, this eye-catching attraction is one of New York's best-loved green spaces, drawing visitors who come to stroll, sit and picnic 30ft above the city, while enjoying fabulous views of Manhattan's ever-changing urban landscape. It loops around Hudson Yards and ends at 34th St.",
+    category_id: c2.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d4.id
+
+)
+
+a33 = Attraction.create!(
+    name: "Hudson River Park",
+    description: "The High Line may be all the rage these days, but one block away from that famous elevated park stretches a 5-mile-long recreational space that has transformed the city over the past decade. Covering 550 acres (400 of which are on the water) and running from Battery Park at Manhattan's southern tip to 59th St in Midtown, Hudson River Park is Manhattan's wondrous backyard. The long riverside path is a great spot for cycling, running and strolling.",
+    category_id: c2.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d4.id
+
+)
+
+a34 = Attraction.create!(
+    name: "The Halal Guys",
+    description: "The Halal Guys is a halal fast casual restaurant franchise that began as halal carts on the southeast and southwest corners of 53rd Street and Sixth Avenue in Manhattan, New York City. New locations, both food cart and storefront, are being added throughout New York (including a storefront on 14th Street and Second Avenue) and around the world. The franchise is most recognized by its primary dish which is a platter of chicken or gyro meat with rice, though it also serves a chicken or gyro wrap sandwich.",
+    category_id: c3.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d4.id
+
+)
+
+a35 = Attraction.create!(
+    name: "Joe's Pizza",
+    description: "The Halal Guys is a halal fast casual restaurant franchise that began as halal carts on the southeast and southwest corners of 53rd Street and Sixth Avenue in Manhattan, New York City. New locations, both food cart and storefront, are being added throughout New York (including a storefront on 14th Street and Second Avenue) and around the world. The franchise is most recognized by its primary dish which is a platter of chicken or gyro meat with rice, though it also serves a chicken or gyro wrap sandwich.",
+    category_id: c3.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d4.id
+
+)
+
 
 puts "created #{Attraction.count} attractions"
 
