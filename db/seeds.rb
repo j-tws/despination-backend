@@ -582,13 +582,106 @@ a45 = Attraction.create!(
 
 )
 
-# Attractions for Cape Town a46 - a54
+# Attractions for Marrakesh a46 - a54
 
+a46 = Attraction.create!(
+    name: "El Badi Palace",
+    description: "Badi Palace was once the biggest and most splendid palace complex in Morocco. Today, little is left of the splendor of the Saadians, yet the remaining ruins indicate the dimensions of the former palace. And there is another worthwhile destination hidden away in El Badi.",
+    category_id: c1.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d6.id
 
+)
 
+a47 = Attraction.create!(
+    name: "Bahia Palace",
+    description: "La Bahia (The Beautiful) is an 8000-sq-metre, floor-to-ceiling extravagance of intricate marquetry, plasterwork and zouak (painted wood), and certainly one of Marrakesh's most eye-popping sights. The salons of both the Petit Riad and Grand Riad host intricate marquetry and zouak ceilings, but the Cour d'Honneur, a grand courtyard, with its 1500 sq metre floor of Italian Carrara marble, is the undisputed highlight.",
+    category_id: c1.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d6.id
 
+)
 
+a48 = Attraction.create!(
+    name: "Koutoubia Mosque",
+    description: "Five times a day, one voice rises above the din of Djemaa El Fna as the muezzin calls the faithful to prayer from the Koutoubia Mosque. The mosque's minaret has been standing guard over the old city since the Almohads erected it in the 12th century. Today it's Marrakesh's most famous landmark. The tower is a monumental cheat sheet of Moorish ornament: scalloped keystone arches, jagged merlon crenelations and mathematically pleasing proportions.",
+    category_id: c1.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d6.id
 
+)
+
+a49 = Attraction.create!(
+    name: "Jardin Majorelle",
+    description: "French fashion designer Yves Saint Laurent and his partner Pierre Bergé bought Jardin Majorelle in 1980 to preserve the vision of its original owner, French landscape painter Jacques Majorelle, and keep it open to the public. The garden, started in 1924, contains a psychedelic desert mirage of 300 plant species from five continents. At its heart lies Majorelle's electric-blue art deco studio, home to the Musée Berbère, which showcases the rich panorama of Morocco's indigenous inhabitants through displays of some 600 artifacts.",
+    category_id: c2.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d6.id
+
+)
+
+a50 = Attraction.create!(
+    name: "Cactus Thiemann",
+    description: "If you think a cacti garden isn't worth travelling across the bumpy lunar pistes of outer Marrakesh for, think again. Cactus Thiemann is one of North Africa’s largest cacti farms, with fields of giant aloe, agave and prickly pear. The largest cactus, at 8m high, is 80 years old and was brought to Morocco overland from Europe in a souped-up military vehicle by founder Hans Thiemann. Tours of the 17-acre nursery and its 150 cacti varieties are fascinating. There are also camels for kids.",
+    category_id: c2.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d6.id
+
+)
+
+a51 = Attraction.create!(
+    name: "Agdal Garden",
+    description: "Built in the 12th century by the founder of the Almohad caliphate, Agdal was once the most important garden in Marrakesh. Although the gardens and its pools cover a huge expanse along the southern edges of the walled medina, only a fraction of it is accessible to the public because Agdal backs onto the Royal Palace (still in use). From the Saadian Tombs it's about a 45-minute walk south, consider renting a bike to get down here, particularly in hot weather.",
+    category_id: c2.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d6.id
+
+)
+
+a52 = Attraction.create!(
+    name: "Djemaa El Fna",
+    description: "Roll up, roll up for the greatest show on earth. Everywhere you look in Djemaa El Fna, Marrakesh's main square (pronounced 'jema', the 'd' is silent), you'll discover drama in progress. The hoopla and halqa (street theater) have been non-stop here since the 11th century. Until a few decades ago, it hosted a daily food market for mountain traders. Now the whine of snake-charmer pungi flutes hits full throttle by mid-morning, and the show doesn't really kick off until sunset when restaurants fire up their grills, cueing musicians to tune up their instruments.",
+    category_id: c3.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d6.id
+
+)
+
+a53 = Attraction.create!(
+    name: "Amal Centre",
+    description: "Likely the best home-cooked meal you'll eat in Marrakech is served at the Amal Centre, a social cooperative that supports and trains disadvantaged women. The food includes unusual salads with lentils, cauliflower and leeks, a truly excellent fish tagine and a traditional Friday couscous. Prices are low, and there are crèche facilities, meaning the dining room is a happy mix of locals and savvy travellers.",
+    category_id: c3.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d6.id
+
+)
+
+a54 = Attraction.create!(
+    name: "Le Trou au Mur",
+    description: "The menu at James Wix's retro Moroccan restaurant draws straight from grandma's cookbook. Here you can sample traditional specialities such as berkoukesh (handmade pasta with a herb and tomato sauce), tride (shredded pancakes with lentils, chicken and saffron) and tihane (offal stuffed with spiced kefta, olives and lemons). Not so old is the contemporary, orientalist décor and the fabulous cocktails, best enjoyed on the roof terrace.",
+    category_id: c3.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d6.id
+
+)
 
 puts "created #{Attraction.count} attractions"
 
