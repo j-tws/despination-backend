@@ -556,9 +556,12 @@ puts "created #{Attraction.count} attractions"
 
 
 
+#======================================================
+print "creating events....."
 
+Event.destroy_all
 
-e1 = Events.create!(
+e1 = Event.create!(
     name: "Florence Paper Lantern Festival",
     location:"Santissima Annunziata",
     time: "4th September 2022, 8pm",
@@ -569,7 +572,7 @@ e1 = Events.create!(
 )
 
 
-e2 = Events.create!(
+e2 = Event.create!(
     name: "Festa di Santa Reparata",
     location:" Santa Maria del Fiore",
     time: "8th October 2022, 12pm",
@@ -579,7 +582,7 @@ e2 = Events.create!(
     attraction_id: a1.id
 )
 
-e3 = Events.create!(
+e3 = Event.create!(
     name: "Gion Odori",
     location:"Gion",
     time: "4th September 2022, 8pm",
@@ -590,7 +593,7 @@ e3 = Events.create!(
 )
 
 
-e4 = Events.create!(
+e4 = Event.create!(
     name: "Hanami party",
     location:" Maruyama-kōen ",
     time: "25th May 2022, 12pm",
@@ -600,7 +603,7 @@ e4 = Events.create!(
     attraction_id: a15.id
 )
 
-e5 = Events.create!(
+e5 = Event.create!(
     name: "Rio Carnival",
     location:"Rio",
     time: "4th September 2022, 8pm",
@@ -611,7 +614,7 @@ e5 = Events.create!(
 )
 
 
-e6 = Events.create!(
+e6 = Event.create!(
     name: "Festival Braseiro",
     location:" Braseiro ",
     time: "14th May 2022, 6pm",
@@ -621,7 +624,7 @@ e6 = Events.create!(
     attraction_id: a27.id
 )
 
-e7 = Events.create!(
+e7 = Event.create!(
     name: "Shakespeare in the Park",
     location:"Delacorte Theater",
     time: "4th September 2022, 8pm",
@@ -632,7 +635,7 @@ e7 = Events.create!(
 )
 
 
-e8 = Events.create!(
+e8 = Event.create!(
     name: "TEXT",
     location:" TEXT ",
     time: "27th September 2022, 8pm",
@@ -642,7 +645,7 @@ e8 = Events.create!(
     attraction_id: a32.id
 )
 
-e9 = Events.create!(
+e9 = Event.create!(
     name: "Garden Town Stellenbosch",
     location:"Stellenbosch, Western Cape",
     time: "20th October 2022, 9am",
@@ -653,7 +656,7 @@ e9 = Events.create!(
 )
 
 
-e10 = Events.create!(
+e10 = Event.create!(
     name: "Oscars Arc WOOF Project",
     location:" The Victoria & Alfred Waterfront ",
     time: "30th July 2022, 9am",
@@ -663,7 +666,7 @@ e10 = Events.create!(
     attraction_id: a37.id
 )
 
-e11 = Events.create!(
+e11 = Event.create!(
     name: "Marrakesh & The Sahara",
     location:"Sahara Desert",
     time: "4th September 2022, 8pm",
@@ -674,7 +677,7 @@ e11 = Events.create!(
 )
 
 
-e12 = Events.create!(
+e12 = Event.create!(
     name: "Marrakech Popular Arts Festival",
     location:" El Badi Palace ",
     time: "1st July 2022, 9am",
@@ -683,3 +686,53 @@ e12 = Events.create!(
     destination_id: nil, 
     attraction_id: a46.id
 )
+
+puts "created #{Event.count} events"
+
+# ===========================================================
+
+print "creating users...."
+
+User.destroy_all
+
+u1 = User.create! email: 'luke@ga.co', name: 'Luke', password: 'chicken'
+u2 = User.create! email: 'Kris@ga.co', name: 'Kris', password: 'chicken'
+u3 = User.create! email: 'Shayni@ga.co', name: 'Shayni', password: 'chicken'
+
+
+puts "created #{User.count} users"
+# =========================================================================
+
+print " Creating planners..."
+
+
+Planner.destroy_all
+
+p1 = Planner.create!(
+    name: "Honeymoon",
+    image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663392073/DesPination/planner/honeymoon_hagyrp.png", 
+    user_id: u1.id
+)
+
+p2 = Planner.create!(
+    name: "Girls Trip",
+    image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663392073/DesPination/planner/all-girls-trip_btm97n.jpg", 
+    user_id: u2.id
+)
+
+p3 = Planner.create!(
+    name: "The Big Apple",
+    image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663392073/DesPination/planner/big-apple_frnxbb.jpg", 
+    user_id: u2.id
+)
+
+p4 = Planner.create!(
+    name: "Europe trip",
+    image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663392073/DesPination/planner/europe_viwsj9.jpg", 
+    user_id: u3.id
+)
+
+
+
+
+puts "created #{Planner.count} planner."
