@@ -539,17 +539,6 @@ a41 = Attraction.create!(
 )
 
 a42 = Attraction.create!(
-    name: "Kirstenbosch National Botanical Garden",
-    description: "Location and unique flora combine to make these 5.28-sq-km botanical gardens among the most beautiful in the world. Gate 1, the main entrance at the Newlands end of the gardens, is where you'll find the information centre, an excellent souvenir shop and the conservatory.",
-    category_id: c2.id,
-    address: "To be added",
-    longitude: 12.34, 
-    latitude: 23.43,
-    destination_id: d5.id
-
-)
-
-a43 = Attraction.create!(
     name: "Cape of Good Hope",
     description: "This 77.5-sq-km section of Table Mountain National Park includes awesome scenery, fantastic walks, great birdwatching and often-deserted beaches. The reserve is commonly referred to as Cape Point, after its most dramatic (but less famous) promontory. Bookings are required for the two-day Cape of Good Hope Trail, a spectacular 33.8km circular route with one night spent in a basic hut. Contact the Buffelsfontein Visitor Centre for further details.",
     category_id: c2.id,
@@ -559,6 +548,43 @@ a43 = Attraction.create!(
     destination_id: d5.id
 
 )
+
+a43 = Attraction.create!(
+    name: "Oranjezicht City Farm Market at Granger Bay",
+    description: "What started as a small urban farm's produce market somehow blossomed into the best weekend activity and the best market in town. With a perfect location between the World Cup stadium and the ocean, the OZCF market is the place to come hungry and try everything you pass. We recommend lapping the whole thing once, if not twice, and then posting up at an outdoor table. Our favorites are the Thank Goodness Foods pastries, Lunchworks rosti plate, and Good Egg breakfast sandwich. A weekend morning here is such an unmissable part of Cape Town that we highly recommend planning your trip around it.",
+    category_id: c3.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d5.id
+
+)
+
+a44 = Attraction.create!(
+    name: "Royale Eatery",
+    description: "Yes, we know, meat-based burgers are kinda over. Cape Town knows that too. That's why this local stalwart has totally moved with the times, as well as a full page of vegan and veggie burger options in the menu (think black beans, pumpkin, butternut squash, soya, lentils and falafel), there are also dairy-free shakes. We like the chocolate and coconut. For a meat feast with a South African twist try the Big Bird, a 160g ostrich patty with homemade beetroot relish..",
+    category_id: c3.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d5.id
+
+)
+
+a45 = Attraction.create!(
+    name: "Codfather Seafood and Sushi",
+    description: "Beautiful Camps Bay is the city's celeb hangout, but the Codfather has little of its district's showy nature. Choose from a wide array of fish on the chilled counter or pick from the sushi belt. And make sure to bag a table near the windows to catch the sunset views. ",
+    category_id: c3.id,
+    address: "To be added",
+    longitude: 12.34, 
+    latitude: 23.43,
+    destination_id: d5.id
+
+)
+
+# Attractions for Cape Town a46 - a54
+
+
 
 
 
