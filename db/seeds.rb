@@ -820,8 +820,8 @@ e7 = Event.create!(
 
 
 e8 = Event.create!(
-    name: "TEXT",
-    location:" TEXT ",
+    name: "Highline",
+    location: " Gaze the HIGH stars in a LINE",
     time: "27th September 2022, 8pm",
     description: "The Amateur Astronomers Association was organized in 1927 to promote the study of Astronomy, by offering free night sky and solar observing, weather permitting. ",
     image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663389311/DesPination/newyork-event8_kzhgvk.jpg",
@@ -917,6 +917,16 @@ p4 = Planner.create!(
 )
 
 
-
-
 puts "created #{Planner.count} planner."
+
+p1.attractions << a1 << a2 << a5 << a7 << a9 << a40 << a41 << a44
+p1.events << e1 << e2 << e9
+
+p2.attractions << a13 << a12 << a14 << a17 << a20 << a23 << a25 << a27
+p2.events << e3 << e6 << e5
+
+p3.attractions << a28 << a29 << a30 << a31 << a33 << a35 << a36
+p3.events << e7 << e8
+
+p4.attractions << a1 << a2 << a3 << a4 << a46 << a48 << a52 << a54
+p4.events << e11 << e1 << e2
