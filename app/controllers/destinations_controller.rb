@@ -10,13 +10,13 @@ class DestinationsController < ApplicationController
   def index
     @destinations = Destination.all
 
-    render json: @destinations, include: [:attractions, :events]
+    render json: @destinations, include: [:events, :attractions => {:include => :events}]
   end
 
   def show
     @destination = Destination.find params[:id]
 
-    render json: @destination, include: [:attractions, :events]
+    render json: @destination, include: [:events, :attractions => {:include => :events}]
   end
 
   def edit
