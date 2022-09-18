@@ -1,7 +1,14 @@
 Rails.application.routes.draw do
   
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-    resources :destinations, :users, :planners, :category, :attractions, :events
+  #Get the login token from Knock
+  post 'user_token' => 'user_token#create'
+
+  #User routes
+  get '/users/current' => 'users#current'
+
+  resources :destinations, :users, :planners, :category, :attractions, :events
+
+
 
 
 end
