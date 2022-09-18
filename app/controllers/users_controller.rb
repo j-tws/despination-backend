@@ -12,7 +12,9 @@ class UsersController < ApplicationController
   end
 
   def show
-    # Dont need to show user profile because each users can access planners. thoughts?
+    @user = User.find params[:id]
+
+    render json: @user, include: [:planners => {include: [:attractions, :events] }]
   end
 
   def edit
