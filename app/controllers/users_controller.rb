@@ -4,7 +4,7 @@ class UsersController < ApplicationController
   before_action :authenticate_user 
 
   def current
-    render json: current user
+    render json: current_user
     # NOTE!! - Knock uses current_user NOT @current_user as we have used previously in a sessions controller. Ensure your code is typed as below.
   end
 
