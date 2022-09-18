@@ -1,4 +1,8 @@
 class DestinationsController < ApplicationController
+
+   
+    skip_before_action :verify_authenticity_token, raise: false
+
   def new
     @destination = Destination.new
   end
