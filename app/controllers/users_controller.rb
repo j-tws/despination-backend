@@ -40,10 +40,5 @@ class UsersController < ApplicationController
   end
 
 
-  private
-  # strong params to increase the security of data sent through forms.
-  def user_params
-    params.require(:user).permit(:name,:email,:password,:password_confirmation)
-  end
-
+ 
 end
