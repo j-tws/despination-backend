@@ -9,6 +9,4 @@ Rails.application.routes.draw do
   resources :destinations, :users, :planners, :category, :attractions, :events
 
 
-
-
 end

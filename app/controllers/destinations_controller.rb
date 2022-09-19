@@ -19,8 +19,15 @@ class DestinationsController < ApplicationController
 
   def show
     @destination = Destination.find params[:id]
+    @users = User.all
 
-    render json: @destination, include: [:events, :attractions => {:include => :events}]
+    @attraction_categories = @destination.attractions.includes(:category).group_by { |att| att.category.name }
+
+    render json: {
+      destination: @destination.as_json( include: [:events, :attractions => {:include => :events}]),
+      attraction_categories: @attraction_categories
+    }
+
   end
 
   def edit

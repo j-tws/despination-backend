@@ -762,7 +762,7 @@ e2 = Event.create!(
     time: "8th October 2022, 12pm",
     description: "Santa Reparata was Florence's ancient cathedral built on the site where Santa Maria del Fiore is located today Generally, celebrations include guided visits of 'Roman Florence' and conferences on Roman Florence in the first centuries of the Christian era. A historical parade honoring the Florentine Republic is followed by a ceremony in Santa Reparata's crypt in the evening.",
     image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663389308/DesPination/florence-event2_tp6cgs.jpg",
-    destination_id: nil, 
+    destination_id: d1.id, 
     attraction_id: a1.id
 )
 
@@ -783,7 +783,7 @@ e4 = Event.create!(
     time: "25th May 2022, 12pm",
     description: "Hanami (“flower viewing”) is the traditional Japanese custom of enjoying the transient beauty of flowers. This often involves a picnic party to enjoy the cherry blossoms as well as food and drinks. People have a Hanami party with friends, family or colleagues under cherry trees and have fun. . ",
     image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663389310/DesPination/kyoto-event4_njc3kv.webp",
-    destination_id: nil, 
+    destination_id: d2.id, 
     attraction_id: a15.id
 )
 
@@ -804,7 +804,7 @@ e6 = Event.create!(
     time: "14th May 2022, 6pm",
     description: "Rondonópolis Barbecue Festival. Giant structure, with 3 stages for you to have 7 hours of music, with open food and open bar Are you ready?Call your friends and come to the barbecue!",
     image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663389311/DesPination/rio-event6_cszzjh.jpg",
-    destination_id: nil, 
+    destination_id: d3.id, 
     attraction_id: a27.id
 )
 
@@ -825,7 +825,7 @@ e8 = Event.create!(
     time: "27th September 2022, 8pm",
     description: "The Amateur Astronomers Association was organized in 1927 to promote the study of Astronomy, by offering free night sky and solar observing, weather permitting. ",
     image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663389311/DesPination/newyork-event8_kzhgvk.jpg",
-    destination_id: nil, 
+    destination_id: d4.id, 
     attraction_id: a32.id
 )
 
@@ -846,7 +846,7 @@ e10 = Event.create!(
     time: "30th July 2022, 9am",
     description: "V&A Waterfront Take the Stage Series is a platform for emerging South African musicians and musical ensembles to showcase their talents at V&A Waterfront. Experience thesemarrakesh emerging artists live for a series of pop-up performances which are free for all to attend",
     image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663389311/DesPination/cape-event9_z5km2r.webp",
-    destination_id: nil, 
+    destination_id: d5.id, 
     attraction_id: a37.id
 )
 
@@ -867,7 +867,7 @@ e12 = Event.create!(
     time: "1st July 2022, 9am",
     description: "This multi-day festival features artists, dancers, singers, theatre troupes, fortune tellers and snake charmers from all over Morocco as well as Europe, Asia and beyond. Held annually in July, the Arts Festival is one of the most celebrated and popular events in Morocco.",
     image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663389310/DesPination/marrakesh-event12_dawypu.jpg",
-    destination_id: nil, 
+    destination_id: d6.id, 
     attraction_id: a46.id
 )
 
@@ -879,9 +879,9 @@ print "creating users...."
 
 User.destroy_all
 
-u1 = User.create! email: 'luke@ga.co', name: 'Luke', password_digest: 'chicken'
-u2 = User.create! email: 'Kris@ga.co', name: 'Kris', password_digest: 'chicken'
-u3 = User.create! email: 'Shayni@ga.co', name: 'Shayni', password_digest: 'chicken'
+u1 = User.create! email: 'luke@ga.co', name: 'Luke', password: 'chicken'
+u2 = User.create! email: 'Kris@ga.co', name: 'Kris', password: 'chicken'
+u3 = User.create! email: 'Shayni@ga.co', name: 'Shayni', password: 'chicken'
 
 
 puts "created #{User.count} users"
