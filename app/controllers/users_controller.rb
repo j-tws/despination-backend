@@ -1,7 +1,8 @@
 class UsersController < ApplicationController
 
   # to authenticate the user which will ensure only logged in users are able to access these methods
-  before_action :authenticate_user 
+  # before_action :authenticate_user # knock to check, check if logged
+  # skip_before_action :verify_authenticity_token, raise: false  # raise: false means do not raise an error
 
   def current
     render json: current_user
@@ -15,7 +16,20 @@ class UsersController < ApplicationController
   end
 
   def create
-    @user = User.create user_params
+    @user = User.create!(
+      name: params['user']['name'],
+      email: params['user']['email'],
+      password: params['user']['password']
+    )
+
+    if @user.persisted? # has user account created sucessful?
+      render json: user # send the create user object as JSON response
+      session[:user_id] = @user.id #LOGIN automatically // create a knock toekn
+    else
+      render json: {error: 'Could not create user account'}, status: 422
+      # 422 is "unprocessable entity", ie force an HTTP error code
+    end
+
   end
 
   def index
@@ -42,3 +56,4 @@ class UsersController < ApplicationController
 
  
 end
+

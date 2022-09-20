@@ -3,11 +3,11 @@ class EventsController < ApplicationController
     skip_before_action :verify_authenticity_token, raise: false
 
   def new
-    @events = Events.all
+    @events = Events.new
   end
 
   def create
-    @event = Event.new
+    @event = Event.create
   end
 
   def index
