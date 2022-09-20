@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   # skip_before_action :verify_authenticity_token, raise: false  # raise: false means do not raise an error
 
   def current
-    render json: current_user
+    render json: current_user, include: [:planners => {include: [:attractions, :events] }]
     # NOTE!! - Knock uses current_user NOT @current_user as we have used previously in a sessions controller. Ensure your code is typed as below.
   end
 

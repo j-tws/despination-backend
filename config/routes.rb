@@ -8,5 +8,7 @@ Rails.application.routes.draw do
 
   resources :destinations, :users, :planners, :category, :attractions, :events
 
+  post '/planners/:planner_id/add_attraction/:attraction_id' => 'planners#add_attraction'
+
 
 end

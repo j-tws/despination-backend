@@ -306,7 +306,7 @@ a19 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
-    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399054/Project%202%20Images/Uffizi_Gallery_nehf5o.avif",
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399043/Project%202%20Images/Christo_Redentor_c4choe.jpg",
     destination_id: d3.id
 
 )
@@ -318,7 +318,7 @@ a20 = Attraction.create!(
     address: "To be added",
     longitude: 12.34, 
     latitude: 23.43,
-    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399043/Project%202%20Images/Christo_Redentor_c4choe.jpg",
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399045/Project%202%20Images/Escadaria_Selaron_kogtjc.avif",
     destination_id: d3.id
 
 )
@@ -802,7 +802,7 @@ e6 = Event.create!(
     name: "Festival Braseiro",
     location:" Braseiro ",
     time: "14th May 2022, 6pm",
-    description: "Rondonópolis Barbecue Festival. Giant structure, with 3 stages for you to have 7 hours of music, with open food and open bar Are you ready?Call your friends and come to the barbecue!",
+    description: "Rondonópolis Barbecue Festival. Giant structure, with 3 stages for you to have 7 hour`s of music, with open food and open bar Are you ready?Call your friends and come to the barbecue!",
     image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663389311/DesPination/rio-event6_cszzjh.jpg",
     destination_id: d3.id, 
     attraction_id: a27.id
@@ -895,7 +895,7 @@ Planner.destroy_all
 p1 = Planner.create!(
     name: "Honeymoon",
     image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663392073/DesPination/planner/honeymoon_hagyrp.png", 
-    user_id: u1.id
+    user_id: u3.id
 )
 
 p2 = Planner.create!(
@@ -913,7 +913,13 @@ p3 = Planner.create!(
 p4 = Planner.create!(
     name: "Europe trip",
     image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663392073/DesPination/planner/europe_viwsj9.jpg", 
-    user_id: u3.id
+    user_id: u1.id
+)
+
+p5 = Planner.create!(
+    name: "React teaching at Marrakesh",
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663588753/Project%202%20Images/react-logo_bqvk7a.png",
+    user_id: u1.id
 )
 
 
@@ -930,3 +936,6 @@ p3.events << e7 << e8
 
 p4.attractions << a1 << a2 << a3 << a4 << a46 << a48 << a52 << a54
 p4.events << e11 << e1 << e2 
+
+p5.attractions << a46 << a47 << a48 << a50 << a51 << a52 
+p5.events << e11 << e12
