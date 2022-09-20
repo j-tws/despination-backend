@@ -60,3 +60,4 @@ gem 'pry-rails'
 gem 'rack-cors'
 gem 'knock'
 gem 'jwt'
+gem "geocoder", "~> 1.8"

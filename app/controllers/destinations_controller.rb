@@ -39,6 +39,11 @@ class DestinationsController < ApplicationController
   def destroy
   end
 
+  # For ReactMap
+  def get_locations
+    render json: Destination.all
+  end
+
 private
 
 
