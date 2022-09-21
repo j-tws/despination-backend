@@ -40,8 +40,10 @@ class PlannersController < ApplicationController
   end
 
   def update
+    planner = Planner.find params[:id]
+    planner.update_column(:notes, params[:notes])
 
-    render json: current_user
+    render json: planner
   end
 
   def destroy

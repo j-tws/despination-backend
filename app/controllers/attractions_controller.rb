@@ -12,13 +12,13 @@ class AttractionsController < ApplicationController
   def index
     @attractions = Attraction.all
 
-    render json: @attractions, include: [:events]
+    render json: @attractions, include: [:events, :users]
   end
 
   def show
     @attraction = Attraction.find params[:id]
 
-    render json: @attraction, include: [:events]
+    render json: @attraction, include: [:events, :users]
   end
 
   def edit
