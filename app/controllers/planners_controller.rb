@@ -8,7 +8,15 @@ class PlannersController < ApplicationController
   end
 
   def create
- 
+    # planner = Planner.create 
+
+    planner = Planner.create name: params[:name], image: params[:image], user_id: params[:user_id]
+
+    if planner.persisted?
+      render json: {response: 'Planner sucessfully created!', object: planner}
+    else
+      render json: { error: 'Could not create planner'}, status: 422 # 'Unprocessable Entity', i.e. force an HTTP error 
+    end
 
   end
 
@@ -37,8 +45,11 @@ class PlannersController < ApplicationController
   end
 
   def destroy
-    @planner = Planner.find params[:id]
-
+    planner = Planner.find params[:id]
+    planner.destroy
+  
+    render json: {response: 'Holiday ended!', object: planner}
+   
   end
 
   # method for add_attraction
@@ -97,9 +108,18 @@ class PlannersController < ApplicationController
 
   # method for remove_event
   def remove_event
+    planner = Planner.find params[:planner_id]
+    event = Event.find params[:event_id]
 
-    render json: current_user
+    if planner.events.include? event
+
+      planner.events.delete event
+
+      render json: {response: 'Event sucessfully removed'}
+    else
+      render json: {error: 'Event does not exist in planner'}, status: 422
+    end
+
   end
-
 
 end
