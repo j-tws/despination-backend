@@ -880,7 +880,7 @@ e13 = Event.create!(
     time: "22nd September 2022, 6pm",
     description: "MIKA - THE MAGIC PIANO is a colorful two-faced gem, with two shows for each city, in different and equally sensational dimensions: one in theaters, one in arenas, for an iconic formula created exclusively for Italy. 
 ",
-    image: "",
+    image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663760188/DesPination/florence-event13_t2gjwt.jpg",
     destination_id: d1.id, 
     attraction_id: nil
 )
@@ -890,7 +890,7 @@ e14 = Event.create!(
     time: "1st Nov 2022, 11am",
     description: "Part of Mediateca Toscana‘s 50 Days of International Film in Florence, all events for the Ethnomusic Film Festival take place this year at the Cinema La Compagnia. This is the largest film festival of its kind in Italy. Events feature writers, directors, filmmakers and actors.. 
 ",
-    image: "",
+    image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663760188/DesPination/florence-event14_adpnh8.jpg",
     destination_id: d1.id, 
     attraction_id: nil
 )
@@ -900,7 +900,7 @@ e15 = Event.create!(
     time: "24 September 2022, 4pm",
     description: "Jidai Matsuri means The Festival of Ages, which is very fitting. During the procession, you will witness different types of authentic Japanese costumes from the 8th century (Heian Period) to the 19th century (Meiji Period)..
 ",
-    image: "",
+    image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663389312/DesPination/rio-event5_stbbqm.jpg",
     destination_id: d2.id, 
     attraction_id: nil
 )
@@ -910,7 +910,7 @@ e16 = Event.create!(
     time: "20 December 2022, 8pm",
     description: "Hanatoro (花灯路, Hanatōro) is a 10-day long illuminations that takes place in Kyoto’s Higashiyama District in March and Arashiyama during December. The event, which translates as “Flower and Light Road”, see thousands of small lanterns displayed in the local area, but the main attraction is the light-up of Togetsukyo Bridge in the Arashiyama District west of the city center.
 ",
-    image: "",
+    image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663760181/DesPination/rio-events17_xqaqcr.jpg",
     destination_id: d2.id, 
     attraction_id: nil
 )
@@ -920,7 +920,7 @@ e17 = Event.create!(
     time: "21 December 2022, 11pm",
     description: "Celebrating ‘Reveillon’ (New Year) in Rio is a truly memorable experience, and Copacabana makes for the perfect base. With several stages to choose from, and non-stop entertainment programmed from 6pm right the way through to the wee hours, not to mention a mesmerising fireworks display at midnight, you won't want to be anywhere else in the world when the clock strikes 12.
 ",
-    image: "",
+    image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663760181/DesPination/rio-events17_xqaqcr.jpg",
     destination_id: d3.id, 
     attraction_id: nil
 )
@@ -930,7 +930,7 @@ e18 = Event.create!(
     time: "21 December 2022, 11pm",
     description: "A celebration of Saint John the Baptist, which gives it the other name of Festa de Sao João. It celebrates rural life with typical clothes, food and dances inside an arraial: a large tent made of raw materials. In big cities, the arraial is usually a building with decorations such as colored flags, checkered table cloths and balloons.
 ",
-    image: "",
+    image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663760182/DesPination/rio-event18_uoptzo.jpg",
     destination_id: d3.id, 
     attraction_id: nil
 )
@@ -940,7 +940,7 @@ e19 = Event.create!(
     time: "26 September 2022, 4pm",
     description: "MHG (MASC Hospitality Group) producers of the Uptown Night Market, Bronx Night Market, Harlem Bazaar, Comemundo, & Uptown Oktoberfest are proud to announce the newest member of the family (drumroll, please).
 ",
-    image: " ",
+    image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663760185/DesPination/newyork-event19_zuto47.webp ",
     destination_id: d4.id, 
     attraction_id: nil
 )
@@ -950,7 +950,7 @@ e20 = Event.create!(
     time: "23 September 2022, 4pm",
     description: "Guests will enjoy wine samples for the entire evening paired with live entertainment, food and interactive games.
 ",
-    image: " ",
+    image: " https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663760180/DesPination/newyork-event20_rn33zs.jpg",
     destination_id: d4.id, 
     attraction_id: nil
 )
@@ -961,7 +961,7 @@ e21 = Event.create!(
     time: "23 Oct 2022, 4pm",
     description: "Stephanie Singh and Aphrodite Belly Dance Studio (Non-profit organisation register in SA NPO 191-834), welcomes you to the 3rd Cape Town Oriental Dance Festival.
 ",
-    image: " ",
+    image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663760187/DesPination/capetown-event21_zdn2qi.jpg ",
     destination_id: d5.id, 
     attraction_id: nil
 )
@@ -972,7 +972,7 @@ e22 = Event.create!(
     time: "30 Sep 2022, 7pm",
     description: "Since 2015, Cape Town’s winter months have grown to love the Night Feast. What makes the Feast so special? Well just imagine a night of street food indulgence in the heart of this amazing city, combined with incredible music, a splash of wine, a slosh of beer, the stroke of an artist’s brush, or the wonder that comes from the crafts and design of local artisans. 
 ",
-    image: " ",
+    image: " https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663760179/DesPination/capetown-event22_iflaes.jpg",
     destination_id: d5.id, 
     attraction_id: nil
 )
@@ -983,7 +983,7 @@ e23 = Event.create!(
     time: "24 July 2022, 5pm",
     description: "The Gnaoua and World Music Festival was born out of a desire to disseminate Gnaoui culture and music which constitutes one of the components of the city's oral and intangible heritage; all the more so to enrich the experiences of sharing and meeting already initiated between Gnaoua musicians and those from other horizons; of different cultures and trends. 
 ",
-    image: " ",
+    image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663760182/DesPination/marrakesh-event23_lrj3ts.jpg ",
     destination_id: d6.id, 
     attraction_id: nil
 )
@@ -993,7 +993,7 @@ e24 = Event.create!(
     time: "Marrakesh Town Hall",
     description: "HE MARRAKECH INTERNATIONAL FILM FESTIVAL ANNOUNCES THE 24 PROJECTS AND FILMS SELECTED FOR THE 4TH EDITION OF THE ATLAS WORKSHOPS, TO BE HELD ONLINE FROM 22 TO 25 NOVEMBER 2021 
 ",
-    image: " ",
+    image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663760179/DesPination/marrakesh-event24_s1ukyp.png ",
     destination_id: d6.id, 
     attraction_id: nil
 )
