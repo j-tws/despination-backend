@@ -7,8 +7,11 @@ Rails.application.routes.draw do
   get '/users/current' => 'users#current'
   get '/destinations/locations' => 'destinations#get_locations'
 
+  post '/new_planner' => 'planners#create'
+  
   resources :destinations, :users, :planners, :category, :attractions, :events
-
+  delete '/planners/:id' => 'planners#destroy'
+  
   post '/planners/:planner_id/add_attraction/:attraction_id' => 'planners#add_attraction'
 
   delete '/planners/:planner_id/remove_attraction/:attraction_id' => 'planners#remove_attraction'

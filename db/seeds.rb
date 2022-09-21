@@ -895,31 +895,36 @@ Planner.destroy_all
 p1 = Planner.create!(
     name: "Honeymoon",
     image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663392073/DesPination/planner/honeymoon_hagyrp.png", 
-    user_id: u3.id
+    user_id: u3.id,
+    notes: "My long awaited honeymoon after covid yayy!! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras facilisis lacus orci, at facilisis lorem tincidunt vitae. Maecenas ultricies vestibulum blandit. Sed ultrices libero quis faucibus aliquam. Praesent fermentum, velit ac pharetra pellentesque, libero est molestie purus, nec fringilla velit lacus ut sapien. Sed non tincidunt ligula, et eleifend odio. Mauris eu dui ornare ligula congue fringilla. Mauris sit amet magna vel purus ultrices sodales. Sed consectetur pretium nulla, pellentesque tristique nisi dapibus non. "
 )
 
 p2 = Planner.create!(
     name: "Girls Trip",
     image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663392073/DesPination/planner/all-girls-trip_btm97n.jpg", 
-    user_id: u2.id
+    user_id: u2.id,
+    notes: "Oh my gosh cant wait to be reunited with our girls woohoo Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras facilisis lacus orci, at facilisis lorem tincidunt vitae. Maecenas ultricies vestibulum blandit. Sed ultrices libero quis faucibus aliquam. Praesent fermentum, velit ac pharetra pellentesque, libero est molestie purus, nec fringilla velit lacus ut sapien. Sed non tincidunt ligula, et eleifend odio. Mauris eu dui ornare ligula congue fringilla. Mauris sit amet magna vel purus ultrices sodales. Sed consectetur pretium nulla, pellentesque tristique nisi dapibus non. "
 )
 
 p3 = Planner.create!(
     name: "The Big Apple",
     image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663392073/DesPination/planner/big-apple_frnxbb.jpg", 
-    user_id: u2.id
+    user_id: u2.id,
+    notes: "Neeeewwww Yoooorrrkkkkkkk Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras facilisis lacus orci, at facilisis lorem tincidunt vitae. Maecenas ultricies vestibulum blandit. Sed ultrices libero quis faucibus aliquam. Praesent fermentum, velit ac pharetra pellentesque, libero est molestie purus, nec fringilla velit lacus ut sapien. Sed non tincidunt ligula, et eleifend odio. Mauris eu dui ornare ligula congue fringilla. Mauris sit amet magna vel purus ultrices sodales. Sed consectetur pretium nulla, pellentesque tristique nisi dapibus non. "
 )
 
 p4 = Planner.create!(
     name: "Europe trip",
     image: "https://res.cloudinary.com/dwmvmdhlu/image/upload/v1663392073/DesPination/planner/europe_viwsj9.jpg", 
-    user_id: u1.id
+    user_id: u1.id,
+    notes: "What's there to not love about Europe Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras facilisis lacus orci, at facilisis lorem tincidunt vitae. Maecenas ultricies vestibulum blandit. Sed ultrices libero quis faucibus aliquam. Praesent fermentum, velit ac pharetra pellentesque, libero est molestie purus, nec fringilla velit lacus ut sapien. Sed non tincidunt ligula, et eleifend odio. Mauris eu dui ornare ligula congue fringilla. Mauris sit amet magna vel purus ultrices sodales. Sed consectetur pretium nulla, pellentesque tristique nisi dapibus non. "
 )
 
 p5 = Planner.create!(
     name: "React teaching at Marrakesh",
     image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663588753/Project%202%20Images/react-logo_bqvk7a.png",
-    user_id: u1.id
+    user_id: u1.id,
+    notes: "I will be getting paid teaching at Marrakesh wooohooo Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras facilisis lacus orci, at facilisis lorem tincidunt vitae. Maecenas ultricies vestibulum blandit. Sed ultrices libero quis faucibus aliquam. Praesent fermentum, velit ac pharetra pellentesque, libero est molestie purus, nec fringilla velit lacus ut sapien. Sed non tincidunt ligula, et eleifend odio. Mauris eu dui ornare ligula congue fringilla. Mauris sit amet magna vel purus ultrices sodales. Sed consectetur pretium nulla, pellentesque tristique nisi dapibus non. "
 )
 
 
