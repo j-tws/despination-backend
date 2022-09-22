@@ -107,7 +107,7 @@ a2 = Attraction.create!(
     address: "Ponte Vecchio, 50125 Firenze FI, Italy",
     longitude: nil, 
     latitude: nil,
-    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399051/Project%202%20Images/Ponte_Vecchio_pqyjqg.jpg",
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663844704/Project%202%20Images/Ponte_Vecchio_uzf8ce.jpg",
     destination_id: d1.id
 )
 
