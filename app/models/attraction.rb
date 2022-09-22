@@ -2,7 +2,7 @@ class Attraction < ApplicationRecord
     belongs_to :destination
     has_many :events
     has_and_belongs_to_many :planners
-    has_and_belongs_to_many :users
+    has_and_belongs_to_many :users, class_name: 'User'
     belongs_to :category
 
     # GEOCODING: automatically lookup the GPS coordinates for the address

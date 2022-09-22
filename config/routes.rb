@@ -20,5 +20,6 @@ Rails.application.routes.draw do
 
   delete '/planners/:planner_id/remove_event/:event_id' => 'planners#remove_event'
 
+  post '/attractions/:attraction_id/likes' => 'attractions#add_likes'
 
 end

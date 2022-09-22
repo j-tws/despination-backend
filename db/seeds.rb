@@ -1076,6 +1076,8 @@ p4.events << e11 << e1 << e2
 p5.attractions << a46 << a47 << a48 << a50 << a51 << a52 
 p5.events << e11 << e12
 
+
+# this is for the likes feature
 u1.attractions << a1 << a2 << a3
 u2.attractions << a1 << a2 << a4 << a5 << a6
 u3.attractions << a5 << a6 << a7 << a8
