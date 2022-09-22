@@ -442,7 +442,7 @@ a30 = Attraction.create!(
     address: " ",
     longitude: -73.99696061114417,
     latitude: 40.706142055379004, 
-    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399054/Project%202%20Images/Uffizi_Gallery_nehf5o.avif",
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399042/Project%202%20Images/Brooklyn_bridge_hkl6sy.avif",
     destination_id: d4.id
 
 )
@@ -454,7 +454,7 @@ a31 = Attraction.create!(
     address: " ",
     longitude: -73.97194157530193, 
     latitude:  40.770020671821555,
-    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399042/Project%202%20Images/Brooklyn_bridge_hkl6sy.avif",
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399042/Project%202%20Images/Central_park_jus1bt.avif",
     destination_id: d4.id
 
 )
@@ -588,7 +588,7 @@ a42 = Attraction.create!(
     address: " ",
     longitude: 18.45791110412334, 
     latitude: -34.2616808739522,
-    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399054/Project%202%20Images/Uffizi_Gallery_nehf5o.avif",
+    image: "https://res.cloudinary.com/dpu8e4ucu/image/upload/v1663399042/Project%202%20Images/Cape_of_good_hope_neie9n.avif",
     destination_id: d5.id
 
 )
@@ -681,7 +681,7 @@ a49 = Attraction.create!(
 
 a50 = Attraction.create!(
     name: "Cactus Thiemann",
-    description: "If you think a cacti garden isn't worth travelling across the bumpy lunar pistes of outer Marrakesh for, think again. Cactus Thiemann is one of North Africa’s largest cacti farms, with fields of giant aloe, agave and prickly pear. The largest cactus, at 8m high, is 80 years old and was brought to Morocco overland from Europe in a souped-up military vehicle by founder Hans Thiemann. Tours of the 17-acre nursery and its 150 cacti varieties are fascinating. There are also camels for kids.",
+    description: "If you think a cacti garden isn't worth travelling across the bumpy lunar pistes of outer Marrakesh for, think again. Cactus Thiemann is one of North Africa's largest cacti farms, with fields of giant aloe, agave and prickly pear. The largest cactus, at 8m high, is 80 years old and was brought to Morocco overland from Europe in a souped-up military vehicle by founder Hans Thiemann. Tours of the 17-acre nursery and its 150 cacti varieties are fascinating. There are also camels for kids.",
     category_id: c2.id,
     address: " ",
     longitude:  -7.9844600446457115, 
