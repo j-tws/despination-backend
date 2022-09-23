@@ -1001,7 +1001,6 @@ e24 = Event.create!(
 
 
 
-
 puts "created #{Event.count} events"
 
 # ===========================================================
@@ -1011,8 +1010,8 @@ print "creating users...."
 User.destroy_all
 
 u1 = User.create! email: 'luke@ga.co', name: 'Luke', password: 'chicken'
-u2 = User.create! email: 'Kris@ga.co', name: 'Kris', password: 'chicken'
-u3 = User.create! email: 'Shayni@ga.co', name: 'Shayni', password: 'chicken'
+u2 = User.create! email: 'kris@ga.co', name: 'Kris', password: 'chicken'
+u3 = User.create! email: 'shayni@ga.co', name: 'Shayni', password: 'chicken'
 
 
 puts "created #{User.count} users"
